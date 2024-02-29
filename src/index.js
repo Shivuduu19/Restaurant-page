@@ -1,3 +1,3 @@
-import initializeWebsite from "./Main";
+import loadWebsite from "./Main";
 
-initializeWebsite();
+loadWebsite();

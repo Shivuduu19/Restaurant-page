@@ -3,11 +3,11 @@ function createContact() {
   contact.classList.add("contact");
 
   const phoneNumber = document.createElement("p");
-  phoneNumber.textContent = "📞 8919687188";
+  phoneNumber.textContent = "📞 89196675348";
 
   const address = document.createElement("p");
   address.textContent =
-    "🏠 Auditorium road, beside geetanjali reading hall,BN Reddy Nagar";
+    "🏠 Auditorium road, beside geetanjali reading hall,Br Nagar";
 
   contact.appendChild(phoneNumber);
   contact.appendChild(address);

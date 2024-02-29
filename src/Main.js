@@ -2,6 +2,7 @@ import loadHome from "./Home";
 import loadMenu from "./Menu";
 import loadContact from "./Contact";
 
+// creating header part
 function createHeader() {
   const header = document.createElement("header");
   header.classList.add("header");
@@ -15,7 +16,7 @@ function createHeader() {
 
   return header;
 }
-
+// creating nav part
 function createNav() {
   const nav = document.createElement("nav");
 
@@ -55,23 +56,21 @@ function createNav() {
 
 function setActiveButton(button) {
   const buttons = document.querySelectorAll(".button-nav");
-
   buttons.forEach((button) => {
-    if (button !== this) {
-      button.classList.remove("active");
-    }
+    button.classList.remove("active");
   });
 
   button.classList.add("active");
 }
 
+// creat main part
 function createMain() {
   const main = document.createElement("main");
   main.classList.add("main");
   main.setAttribute("id", "main");
   return main;
 }
-
+// Footer part
 function createFooter() {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
@@ -93,7 +92,7 @@ function createFooter() {
   return footer;
 }
 
-function initializeWebsite() {
+function loadWebsite() {
   const content = document.getElementById("content");
 
   content.appendChild(createHeader());
@@ -104,4 +103,4 @@ function initializeWebsite() {
   loadHome();
 }
 
-export default initializeWebsite;
+export default loadWebsite;
