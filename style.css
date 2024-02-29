@@ -2,9 +2,9 @@
   --font-color: #e78;
   --font-color-dark: #aaa;
   --border-color: #222;
-  --background-light: rgba(0, 0, 0, 0.6);
-  --background-light-hover: rgba(99, 99, 99, 0.4);
-  --background-dark: rgba(0, 0, 0, 0.9);
+  --background-light: rgba(5, 5, 5, 0.6);
+  --background-light-hover: rgba(99, 99, 99, 0.1);
+  --background-dark: rgba(0, 0, 0, 1);
 }
 
 *,
@@ -138,8 +138,8 @@ button {
 .menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 4rem;
-  animation: fadeIn 1.5s;
+  grid-gap: 6rem;
+  animation: fadeIn 1s;
 }
 
 .menu-item {
